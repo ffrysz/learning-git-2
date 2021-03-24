@@ -1,0 +1,39 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+/* Song */
+
+.song {
+    background: #636e72;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: block;
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 760px;
+    background: #dfe6e9;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.author {
+    font-style: italic;
+}
